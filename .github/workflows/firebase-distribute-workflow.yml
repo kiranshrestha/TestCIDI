@@ -34,7 +34,7 @@ jobs:
 
       # Send APK to Firebase Distributions
       - name: Upload APK to Firebase App Distribution
-        uses: wzieba/Firebase-Distribution-Github-Action@v1.3.2
+        uses: kiran/Firebase-Distribution-Github-Action@v1.3.2
         with:
           appId: ${{ secrets.FIREBASE_APP_ID }}
           token: ${{ secrets.FIREBASE_TOKEN }}
